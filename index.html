@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Python Full Stack Developer</title>
+
+  <!-- Google Fonts: Playfair Display (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo / Brand -->
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>surendra kuamr<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#resume"   class="nav-link">Resume</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="hero">
+
+    <!-- Decorative grid lines -->
+    <div class="hero-grid" aria-hidden="true">
+      <div class="grid-line"></div>
+      <div class="grid-line"></div>
+      <div class="grid-line"></div>
+      <div class="grid-line"></div>
+    </div>
+
+    <div class="hero-content">
+ 
+      <!-- Left: text -->
+      <div class="hero-text" data-aos="fade-right">
+        <p class="hero-greeting">Hello, World! 👋</p>
+        <h1 class="your-name">
+         <br />
+          <em>surendra kumar</em>
+        </h1>
+        <p class="hero-title">
+          <span class="title-line"></span>
+          Python Full Stack Developer
+        </p>
+        <p class="hero-tagline">
+          Crafting elegant digital experiences — from robust backends
+          to pixel-perfect frontends.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-code"></i> View Projects
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: photo placeholder -->
+      <div class="hero-photo" data-aos="fade-left">
+        <div class="photo-frame">
+          <div class="photo-placeholder">
+            <i class="fas fa-user"></i>
+            <!-- Replace the above with: <img src="01.jpg" alt="surendra kumar" /> -->
+          </div>
+          <div class="photo-ring photo-ring--1"></div>
+          <div class="photo-ring photo-ring--2"></div>
+        </div>
+        <!-- Floating badges -->
+        <div class="badge badge--python">
+          <i class="fab fa-python"></i> Python
+        </div>
+        <div class="badge badge--django">
+          <i class="fas fa-leaf"></i> Django
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <div class="scroll-dot"></div>
+      <span>Scroll</span>
+    </a>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="about section" id="about">
+    <div class="container">
+
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-number">01</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- Left: decorative accent -->
+        <div class="about-accent" data-aos="fade-right">
+          <div class="accent-card">
+            <div class="accent-stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="accent-stat">
+              <span class="stat-num">9+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="accent-stat">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Curiosity</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: text -->
+        <div class="about-text" data-aos="fade-left">
+          <h3 class="about-subtitle">
+            A passionate developer on a mission to build meaningful things.
+          </h3>
+          <p>
+            I'm a fresher Python Full Stack Developer with a strong foundation
+            in web technologies. I love turning ideas into real, working
+            applications — whether that's designing a sleek UI or engineering a
+            scalable backend API.
+          </p>
+          <p>
+            My journey into tech started with a curiosity about how websites
+            work, which quickly evolved into a passion for Python, Django, and
+            everything in between. I'm constantly learning, building side
+            projects, and exploring new technologies.
+          </p>
+          <p>
+            <strong>Career Goal:</strong> To join a dynamic team where I can
+            contribute, grow, and eventually architect impactful software
+            solutions that make people's lives easier.
+          </p>
+
+          <ul class="about-highlights">
+            <li><i class="fas fa-check-circle"></i> Strong Python & Django foundation</li>
+            <li><i class="fas fa-check-circle"></i> Familiar with REST API design</li>
+            <li><i class="fas fa-check-circle"></i> Quick learner &amp; team player</li>
+            <li><i class="fas fa-check-circle"></i> Passionate about clean code</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SKILLS SECTION
+  ============================================================ -->
+  <section class="skills section" id="skills">
+    <div class="container">
+
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-number">02</span>
+        <h2 class="section-title">Skills</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- Skill bar group -->
+      <div class="skills-wrapper">
+
+        <!-- Left: animated skill bars -->
+        <div class="skill-bars" data-aos="fade-right">
+          <h3 class="skills-group-title">Proficiency</h3>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fab fa-python"></i> Python</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" data-width="85"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" data-width="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" data-width="85"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fab fa-js-square"></i> JavaScript</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" data-width="75"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-leaf"></i> Django</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" data-width="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-flask"></i> Flask</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" data-width="70"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: skill cards -->
+        <div class="skill-cards" data-aos="fade-left">
+          <h3 class="skills-group-title">Tools & Technologies</h3>
+          <div class="cards-grid">
+
+            <div class="skill-card">
+              <i class="fas fa-database"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-git-alt"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-plug"></i>
+              <span>REST APIs</span>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-python"></i>
+              <span>NumPy</span>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-terminal"></i>
+              <span>Linux CLI</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROJECTS SECTION
+  ============================================================ -->
+  <section class="projects section" id="projects">
+    <div class="container">
+
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="project-link" title="Live Demo" aria-label="Live Demo">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">E-Commerce Platform</h3>
+          <p class="project-desc">
+            A full-featured online store with product listing, cart management,
+            user authentication, and order tracking — built with Django and MySQL.
+          </p>
+          <div class="project-tags">
+            <span>Django</span><span>Python</span><span>MySQL</span><span>Bootstrap</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-tasks"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="project-link" title="Live Demo" aria-label="Live Demo">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Task Manager API</h3>
+          <p class="project-desc">
+            A RESTful API built with Flask that allows users to create, update,
+            and manage tasks with JWT-based authentication and MySQL backend.
+          </p>
+          <div class="project-tags">
+            <span>Flask</span><span>REST API</span><span>JWT</span><span>MySQL</span>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-cloud-sun"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="project-link" title="Live Demo" aria-label="Live Demo">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Weather Dashboard</h3>
+          <p class="project-desc">
+            A responsive weather app that fetches real-time data from the
+            OpenWeatherMap API and displays it with beautiful animated charts.
+          </p>
+          <div class="project-tags">
+            <span>JavaScript</span><span>REST API</span><span>CSS3</span><span>HTML5</span>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-blog"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="project-link" title="Live Demo" aria-label="Live Demo">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Personal Blog CMS</h3>
+          <p class="project-desc">
+            A content management system for a personal blog with rich-text
+            editing, tagging, search functionality, and an admin dashboard.
+          </p>
+          <div class="project-tags">
+            <span>Django</span><span>Python</span><span>SQLite</span><span>JavaScript</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       RESUME SECTION
+  ============================================================ -->
+  <section class="resume section" id="resume">
+    <div class="container">
+
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-number">04</span>
+        <h2 class="section-title">Resume</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="resume-content" data-aos="fade-up">
+        <div class="resume-card">
+          <div class="resume-icon"><i class="fas fa-file-alt"></i></div>
+          <h3>Download My Resume</h3>
+          <p>
+            Get a full overview of my education, skills, projects, and
+            career objectives in one concise document.
+          </p>
+          <!-- Replace href with your actual resume file path -->
+          <a href="resume.pdf" download class="btn btn-primary btn-lg">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-number">05</span>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Left: info + social -->
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Let's Build Something Together</h3>
+          <p>
+            I'm open to internships, entry-level roles, and freelance
+            opportunities. Drop me a message and I'll get back to you ASAP!
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:your@email.com">
+                <i class="fas fa-envelope"></i>
+                your@email.com
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i>
+                linkedin.com/in/yourprofile
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i>
+                github.com/yourusername
+              </a>
+            </li>
+          </ul>
+
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:your@email.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: contact form -->
+        <form class="contact-form" id="contact-form" data-aos="fade-left" novalidate>
+          <div class="form-group">
+            <label for="name">surendra kumar</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+
+          <!-- Success / error message -->
+          <div class="form-status" id="form-status"></div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+
+        <p class="footer-logo">
+          <span class="logo-bracket">&lt;</span>YourName<span class="logo-bracket">/&gt;</span>
+        </p>
+
+        <p class="footer-copy">
+          &copy; <span id="year"></span> surendra kuamr. Crafted with
+          <i class="fas fa-heart" style="color: var(--accent-gold);"></i>
+          &amp; Python.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:your@email.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
